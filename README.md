@@ -2,14 +2,14 @@
 
 This is a predator-prey simulation built using **NetLogo**, modeling the interaction between **foxes** (predators), **rabbits** (prey), and **grass** (resource). The model demonstrates ecological dynamics such as hunting, food consumption, energy gain/loss, and reproduction.
 
-## 🧠 Overview
+## Overview
 
 The simulation explores:
 - How predator and prey populations fluctuate over time
 - The role of energy in survival and reproduction
 - Grass regrowth and its impact on the ecosystem
 
-## ⚙️ Parameters (Sliders)
+## Parameters (Sliders)
 
 | Slider Name              | Description                                 | Default |
 |--------------------------|---------------------------------------------|---------|
@@ -38,7 +38,7 @@ The simulation explores:
 3. Click `setup` to initialize.
 4. Click `go` to run the simulation.
 
-## 📚 Concepts
+## Concepts
 
 - Predator-prey dynamics
 - Energy modeling
