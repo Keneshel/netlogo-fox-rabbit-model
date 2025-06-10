@@ -9,6 +9,29 @@ The simulation explores:
 - The role of energy in survival and reproduction
 - Grass regrowth and its impact on the ecosystem
 
+## Ecosystem Description
+
+- Grass grows across the landscape and serves as food for rabbits.
+- Rabbits move around their environment, consuming grass to obtain energy. If they have sufficient energy and a probability threshold is met, they reproduce.
+- Foxes hunt and eat rabbits to survive. Similar to rabbits, foxes can reproduce if they reach a minimum energy level and meet the reproduction chance.
+- Grass regrows after being eaten, with a configurable regrowth delay.
+
+## Agent Behaviors
+
+- Grass:
+  - Patches may or may not contain grass.
+  - Rabbits eat grass and regrow after a set number of ticks.
+- Rabbits:
+  - Move randomly.
+  - Eat grass on their current patch.
+  - Reproduce if they have enough energy and pass a reproduction probability test.
+  - Die if energy reaches zero.
+- Foxes:
+  - Seek out nearby rabbits to hunt.
+  - Gain energy by consuming rabbits.
+  - Reproduce similarly to rabbits, based on energy and chance.
+  - Die if energy reaches zero.
+
 ## Parameters (Sliders)
 
 | Slider Name              | Description                                 | Default |
@@ -41,6 +64,4 @@ The simulation explores:
 ## Concepts
 
 - Predator-prey dynamics
-- Energy modeling
 - Agent-based modeling
-- Grass regrowth and resource competition
